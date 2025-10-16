@@ -93,8 +93,7 @@ section {
   cursor: pointer;
   line-height: 1;
   position: fixed;
-  top: max(12px, env(safe-area-inset-top));
-  right: max(12px, env(safe-area-inset-right));
+  top: 50px;
   z-index: 1000;
 }
 /* Sun (light) / Moon (dark) via mask */

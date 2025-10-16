@@ -187,10 +187,11 @@ section {
     font-size: 16px;
   }
 
-  #theme-toggle {
-  
+  #theme-toggle { 
   position: fixed;
   top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1000;
-}
+  }
 }

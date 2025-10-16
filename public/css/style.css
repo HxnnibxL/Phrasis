@@ -92,8 +92,6 @@ section {
   padding: 0;
   cursor: pointer;
   line-height: 1;
-  position: fixed;
-  top: 50px;
   z-index: 1000;
 }
 /* Sun (light) / Moon (dark) via mask */
@@ -142,10 +140,6 @@ section {
 
 /* Intro */
 #intro {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 20px;
   font-weight: 600;
   font-family: 'Courier New', Courier, monospace;
@@ -155,11 +149,7 @@ section {
 /* quotes class */
 
 #phrase-container  {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
+  max-width: 80%;
 }
 
 
@@ -194,8 +184,7 @@ section {
 
   #theme-toggle {
   
-  position: fixed;
-  top: 0px;
+  top: 20px;
   z-index: 1000;
 }
 }

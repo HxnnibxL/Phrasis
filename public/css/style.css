@@ -92,8 +92,10 @@ section {
   padding: 0;
   cursor: pointer;
   line-height: 1;
-  position: absolute;
+  position: fixed;
+  top: 20px;
   right: 20px;
+  z-index: 1000;
 }
 /* Sun (light) / Moon (dark) via mask */
 #theme-toggle::before {

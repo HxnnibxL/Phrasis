@@ -178,6 +178,11 @@ section {
 
 /* --------- Media ----------- */
 @media screen and (max-width: 924px) {
+  #theme-toggle {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
   
   #phrase {
     font-size: 20px;
